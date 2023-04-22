@@ -1,6 +1,6 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded", function() {
-      var dta = document.getElementById('data');
-      dta.innerText = 'DOM load success'
+      let id = document.body.children;
+      id[0].innerText = 'DOM load success'
   
 });
